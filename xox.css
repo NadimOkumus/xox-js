@@ -1,0 +1,39 @@
+h1, table, button {
+    margin: auto;
+}
+#oyunAlani {
+    margin: auto;
+    display: flex; 
+}
+td {
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 5em;
+    box-sizing: border-box;
+}
+td:hover {
+    cursor: pointer;
+}
+ 
+.temizle {
+    width: 100px;
+    height: 40px;
+}
+.clear {
+    background: white;
+}
+.X {
+    background: cadetblue;
+    color: white;
+}
+.O {
+    background: burlywood;
+    color:white;
+}
+.X, .O  {
+    border-radius: 50%;
+}
